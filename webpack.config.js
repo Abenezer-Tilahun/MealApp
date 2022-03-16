@@ -22,15 +22,11 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-      test: /\.html$/i,
-      use: ['html-loader']
-      },
-      {
         test: /\.(png|svg|jpg|jpeg)$/,
         type: 'asset/resource',
         generator: {
-          filename: './images/[name][ext]'
-        }
+          filename: './images/[name][ext]',
+        },
       },
     ],
   },
