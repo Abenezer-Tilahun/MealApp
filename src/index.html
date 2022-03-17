@@ -1,86 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//fonts.googleapis.com/css?family=Average&subset=latin" rel="stylesheet" type="text/css">
-    <link href="//fonts.googleapis.com/css?family=Allison&subset=latin" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2b1476549e.js" crossorigin="anonymous"></script>
-    <title>HomeChef</title>
-</head>
-<body>
-<header>
-        <div class="header-top bg-indigo d-flex justify-center">
-            <span>Learn How To Cook French,Italian And American Meal!!!</span> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:image"
+      content="http://localhost:8082/images/Background.png"
+    />
+    <meta
+      property="og:description"
+      content="In this project, we built our own web application based on an external API. The web application has 3 user interfaces:"
+    />
+    <meta property="og:title" content="Home Cooking" />
+    <link
+      href="//fonts.googleapis.com/css?family=Average&subset=latin"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="//fonts.googleapis.com/css?family=Allison&subset=latin"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://kit.fontawesome.com/2b1476549e.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home-Chef</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top bg-indigo d-flex justify-center">
+        <span class="letter-spacing-01"
+          >Learn How to Cook Canadian, Portuguese And Chinese Meals !!!</span
+        >
+      </div>
+      <div class="header-middle">
+        <div>
+          <a href="#" class="">
+            <div class="logo"></div>
+          </a>
+          <h1 class="text-center">Fresh And Easy</h1>
+          <p class="text-center">Healthy cooking</p>
         </div>
-        <div class="header-middle">
-            <div class="logo">
-            </div>
-            <h1 class="text-center">Fresh And Easy</h1>
-            <p class="text-center">Healthy cooking</p>
-            <nav class="pt-2">
-                <ul class="d-flex justify-center">
-                    <li class="active"><a href="#">French</a><span class="foodCount french"></span> </li>
-                    <li><a href="#">Italian </a><span class="foodCount Italian"></span></li>
-                    <li><a href="#">American</a><span class="foodCount American"></span></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </nav>
-        </div>
-        </header>
-        <div id="modal" class="d-flex justify-center">
-        </div>
-        <main>
-            <div class="meal-list"></div> 
-        </main>
-        <section id="about">
-          <div class="row">
-            <div class="col-md-12">
-            <div class="container col-md-6">
-              <div class="about-text">
-                <h2>About</h2>
-                <p>
-                  <strong>Home Chef</strong> is a collection of  meals Menu. You may like them and leave comment for each. We chose French, SeaFood meals as an excuse for ourselves to know more about a lesser known culture.
-                This website is made as an educational project. Here we examined our skills for calling external APIs to fetch and submit data.</p>
-              </div>
-              <div class="about-author">
-                <h3>Authors</h3> 
-                <ul class="project-authors">
-                  <li class="author">
-                    <img src="https://avatars.githubusercontent.com/u/93598189?v=4" alt="Abenezer Tilahun">
-                    <a target="_blank" href="https://github.com/Abenezer-Tilahun" rel="noopener noreferrer">
-                      Abenezer Tilahun
-                    </a>
-                  </li>
-                  <li class="author">
-                    <img src="https://camo.githubusercontent.com/d2e99454db4a3fa019d3292ba20d5d3d0eef04a0923731ce83293175b9fcbae8/68747470733a2f2f63612e736c61636b2d656467652e636f6d2f5434374354385850472d553032513531374a4b50552d6532313239663861353335362d353132" alt="Linda-Keza">
-                    <a target="_blank" href="https://github.com/keza681" rel="noopener noreferrer">
-                      Linda Keza
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              
-              <div class="about-techs ml-auto ">
-              <h3>Technologies:</h3>
-                <ul class="tech-list">
-                  <li class="tech-item">HTML5</li>
-                  <li class="tech-item">CSS3</li>
-                  <li class="tech-item">BootStrap</li>
-                  <li class="tech-item">JavaScript</li>
-                  <li class="tech-item">Webpack</li>
-                  <li class="tech-item">Jest</li>
-                </ul>
-              </div>
-          </div>
-          </div>
-          </div>
-          </section>
-          <footer>
-            <p>Created by <a href="https://github.com/Abenezer-Tilahun">Abenezer Tilahun</a> & <a href="https://github.com/keza681">Linda Keza</a></p>
-          </footer>
-      </body>
+
+        <nav class="list">
+          <ul class="d-flex">
+            <li class="active">
+              <a href="#" class="letter-spacing-01">Canadian</a
+              ><span class="foodCount canadian"></span>
+            </li>
+
+            <li>
+              <a href="#" class="letter-spacing-01">Portuguese</a
+              ><span class="foodCount portuguese"></span>
+            </li>
+
+            <li>
+              <a href="#" class="letter-spacing-01">Chinese</a
+              ><span class="foodCount chinese"></span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="modal" class="d-flex justify-center"></div>
+    <main>
+      <div class="meal-list"></div>
+    </main>
+    <footer>
+      <ul class="d-flex footer-reserved">
+        <li>
+          Created by
+          <a href="https://github.com/Abenezer-Tilahun">Abenezer Tilahun</a> &
+          <a href="https://github.com/keza681">Linda Keza</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
