@@ -27,6 +27,7 @@ body {
   background-image: url('../image/Background.png');
   background-size: contain;
   padding-bottom: 2rem;
+  background-repeat: no-repeat;
 }
 
 .header-middle h1 {
