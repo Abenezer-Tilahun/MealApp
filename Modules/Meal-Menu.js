@@ -1,4 +1,5 @@
 import { like, Displaylikes } from './interactions.js';
+import postComment from './comment.js';
 
 // Popup window //
 const popup = async () => {
