@@ -1,5 +1,4 @@
 import { like, Displaylikes } from './interactions.js';
-import postComment from './comments-api.js';
 
 // Popup window //
 const popup = async () => {
@@ -23,7 +22,7 @@ const popup = async () => {
         </div>
         <div class="modal-header-img d-flex ">
             <img class="modal-img" src="${element.strMealThumb}" alt="${element.strMeal}">
-            <h2 class="titme">${element.strMeal}</h2>
+            <h2 class="title">${element.strMeal}</h2>
         </div>
         <div class="modal-description d-flex ">
         <div class = "left">
@@ -38,7 +37,7 @@ const popup = async () => {
         <p> <span class="description-header">Instructions:</span> <p> <span class = "recipe-instrruction"> ${element.strInstructions}  > read more </button> </span>
         </div>
     </div>
-    <div class="comments-container">
+    <div class="comments  -container">
     <div class="all-comments text-center">
         <h3>Comments <span id= "comments-count">0</span></h3>
         <ul id="comments-ul" class = "d-flex justify-center flex-col">
@@ -172,8 +171,8 @@ const getmeals = async () => {
       links[i].classList.add('active');
     });
   }
-  getCategoryUrl('french');
-  printCount('french');
+  getCategoryUrl('Canadian');
+  printCount('Canadian');
 };
 
 Displaylikes();
