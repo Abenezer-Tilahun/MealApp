@@ -55,13 +55,11 @@ body {
 
 ul {
   list-style: none;
-  
 }
 
 #ingredientsUl {
   list-style: none;
 }
-
 
 nav ul li {
   align-items: center;
@@ -74,6 +72,11 @@ nav ul li {
   color: black;
   font-family: 'Average', sans-serif;
   text-decoration: none;
+}
+
+.footer-reserved li a {
+  font-family: bold;
+  font-size: 1rem;
 }
 
 .pt-2 li a:hover {
@@ -153,7 +156,7 @@ button {
 
 /* footer */
 footer {
-  background: #667eea;;
+  background: #667eea;
   height: 10px;
   padding: 2.5rem 30rem;
 }
@@ -175,11 +178,6 @@ footer {
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
-}
-
-.footer-reserved li a {
-  font-family: bold;
-  font-size: 1rem;
 }
 
 .modal {
@@ -281,11 +279,9 @@ textarea:focus {
   transition: all ease 0.3s;
 }
 
-
 .bold {
   font-weight: 500;
 }
-
 
 .heart-active {
   color: #6d8347;
