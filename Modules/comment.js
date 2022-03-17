@@ -17,8 +17,8 @@ const getComments = async () => {
     mealComments.forEach((elem) => {
       const liComments = document.createElement('li');
       liComments.innerHTML = `
-      <p><span class="bold">${elem.creation_date} ${elem.username}</span>: ${elem.comment}</p>
-      `;
+        <p><span class="bold">${elem.creation_date} ${elem.username}</span>: ${elem.comment}</p>
+        `;
       ul.appendChild(liComments);
     });
   }
