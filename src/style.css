@@ -28,6 +28,7 @@ body {
   background-size: contain;
   padding-bottom: 2rem;
   background-repeat: no-repeat;
+  box-shadow: 1px 5px 5px 1px rgb(51, 141, 51);
 }
 
 .header-middle h1 {
@@ -86,10 +87,13 @@ nav ul li {
 
 main {
   padding: 0 2rem;
+  background-color: rgb(252, 238, 162);
 }
 
 img {
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(247, 252, 0);
 }
 
 .meal {
@@ -121,12 +125,13 @@ img {
 
 .comments {
   padding: 0.7rem;
-  background-color: #667eea;
+  background-color: #317224;
   color: #fff;
   font-size: 1rem;
+  border-radius: 5px;
   width: 100%;
   cursor: pointer;
-  border: #667eea 1px solid;
+  border: none;
 }
 
 #comment {
