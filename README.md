@@ -6,7 +6,7 @@ In this project, we built our own web application based on an external API. The 
 - On homepage interface you can you can like your favorite meals;
 - On comments interface you can add comments;
 
-![screenshot](./images/Screen-shoot.PNG)
+![screenshot](./image/Screen-shoot.PNG)
 
 > This is a team project in the Microverse second Module. The project is a Meal-menu Web application that enables a user to Learn cooking of three different countries .
 
