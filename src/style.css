@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.header-top {
+  color: #fff;
+  padding: 0.2rem;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+}
+
+.foodCount {
+  margin: 0.5rem;
+}
+
+.logo {
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 0.6rem;
+}
+
+.logo h1 {
+  color: #fff;
+}
+
+.log a {
+  text-decoration: none;
+}
+
+.Mealapp {
+  height: 200px;
+  background: url('../image/HomeChef-Logo.jpg') no-repeat center;
+}
+
+.header-middle {
+  background-image: url('../image/Background.png');
+  background-size: contain;
+  padding-bottom: 2rem;
+  background-repeat: no-repeat;
+}
+
+.header-middle h1 {
+  margin: 0;
+  font-weight: 200;
+  font-family: 'Average', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+
+.header-middle p {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #667eea;
+  font-family: 'Allison', sans-serif;
+}
+
+.description {
+  text-align: center;
+  margin-left: 425px;
+}
+
+.list {
+  display: flex;
+  font-family: bold;
+  font-size: 1rem;
+  margin-left: 500px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+#ingredientsUl {
+  list-style: none;
+}
+
+nav ul li {
+  align-items: center;
+}
+
+.footer-reserved li a {
+  font-family: bold;
+  font-size: 1rem;
+}
+
+.pt-2 li a {
+  font-size: 2.5rem;
+  padding-right: 2rem;
+  font-weight: bold;
+  color: black;
+  font-family: 'Average', sans-serif;
+  text-decoration: none;
+}
+
+.pt-2 li a:hover {
+  color: #667eea;
+  transition: all ease 0.3s;
+}
+
+main {
+  padding: 0 2rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(247, 252, 0);
+}
+
+.meal {
+  width: 90%;
+}
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.meal-body {
+  height: 60px;
+}
+
+.meal-list li {
+  list-style: none;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.likes {
+  text-align: end;
+}
+
+.comments {
+  padding: -0.3rem;
+  background-color: #317224;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  border: #667eea 1px solid;
+}
+
+#comment {
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+}
+
+.comments:hover {
+  background-color: #eaeaea;
+  color: black;
+  transition: all ease 0.3s;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fa-heart.active {
+  color: rgb(128, 0, 0);
+}
+
+i,
+button {
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+  background: #667eea;
+  height: 10px;
+  padding: 2.5rem 30rem;
+}
+
+.footer-reserved {
+  margin: 0;
+  padding: 0;
+  align-items: end;
+}
+
+.footer-reserved li {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.fav-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.modal {
+  width: 85vw;
+  min-height: 100vh;
+  border: #667eea 2px solid;
+  padding: 1rem;
+}
+
+.modal h2 {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+}
+
+.modal-header-img {
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal-header-img img {
+  width: 500px;
+  height: 500px;
+}
+
+.recipe-instrruction {
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 20;
+  -webkit-box-orient: vertical;
+}
+
+.description-header {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.close {
+  border: none;
+  font-size: 2rem;
+  background: transparent;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.submit-comment {
+  border: 1px solid #6d8347;
+  background-color: #6d8347;
+  color: #fff;
+  padding: 0.5rem 2rem;
+}
+
+.submit-comment,
+#input-name,
+#comment {
+  border: 1px solid #6d8347;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #6d8347;
+}
+
+#comments-ul {
+  padding: 0;
+}
+
+#comments-ul li {
+  width: 40%;
+  text-align: start;
+  align-self: center;
+}
+
+#comments-ul li p {
+  margin: 0.2rem;
+}
+
+#alert {
+  text-align: start;
+  margin-bottom: 0.5rem;
+}
+
+.fa-heart:active {
+  transform: translateY(2px);
+  transition: all ease 0.3s;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.heart-active {
+  color: #6d8347;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.m-05 {
+  margin: 0.5rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-green {
+  background-color: #6d8347;
+}
+
+.bg-indigo {
+  background-color: #667eea;
+}
+
+.bg-darkGray {
+  background-color: #eaeaea;
+}
+
+@media only screen and (max-width: 680px) {
+  .meal-list li {
+    width: 100%;
+  }
+
+  header {
+    margin-top: 2rem;
+    align-items: center;
+  }
+
+  .header-top {
+    margin-top: 2rem;
+    align-items: center;
+  }
+
+  .header-middle {
+    background-image: url(../image/Background.png);
+    background-size: cover;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .list {
+    margin-left: 20px;
+  }
+
+  footer {
+    background: #667eea;
+    height: 50px;
+  }
+
+  .footer-reserved li {
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  .footer-reserved li a {
+    margin-right: 200px;
+  }
+}
