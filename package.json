@@ -21,7 +21,7 @@
     "webpack-dev-server": "^4.7.4"
   },
   "name": "mealapp",
-  "description": "",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "version": "1.0.0",
   "main": "webpack.config.js",
   "dependencies": {

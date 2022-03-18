@@ -13,12 +13,24 @@ In this project, we built our own web application based on an external API. The 
 The goal of the project is to build the application using Vanilla JavaScript and ES6 Modules.   
 Click [here](https://abenezer-tilahun.github.io/MealApp/) to get a live preview of the project
 
+## Features implemented so far are:
+
+Responsive HTML page
+
+- Integrated webpack
+- Integrated MealDB API
+- Integrated Involvement API
+- Addition of unit test using Jest.
+
+
 ## Built With
 
-- Java Script
-- HTML
-- CSS
-- Mealdb API
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
+- Webpack (Used for bundling JavaScript files for usage in a browser)
+- Bootstrap CSS library
 
 ### Technologies used
 
@@ -28,6 +40,16 @@ Click [here](https://abenezer-tilahun.github.io/MealApp/) to get a live preview 
 - webpack
 - npm
 - jest
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+The basic requirements for building the executable are:
+
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
 #### Cloning the project
 ```
@@ -63,6 +85,15 @@ npm install --save-dev hint@6.x
 ```
 npx hint .
 ```
+
+## Unit Testing
+
+You can find each unit test cases in the Test folder located in the parent source directory of the project. you can create your own custom unit test and test it by running
+
+```
+npx run test
+```
+This should run all unit test found in the application.test.js from the Test folder.
 
  ## 🤝 Contributing
 
