@@ -97,11 +97,6 @@ nav ul li {
   text-decoration: none;
 }
 
-.footer-reserved li a {
-  font-family: bold;
-  font-size: 1rem;
-}
-
 .pt-2 li a:hover {
   color: #667eea;
   transition: all ease 0.3s;
@@ -146,7 +141,6 @@ img {
 
 .comments {
   padding: -0.3rem;
-
   background-color: #317224;
   color: #fff;
   font-size: 1rem;
