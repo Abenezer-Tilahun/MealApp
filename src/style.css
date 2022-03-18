@@ -10,8 +10,7 @@ body {
   color: #fff;
   padding: 0.2rem;
   text-transform: uppercase;
-  font-size: 1rem;
-  padding-bottom: 1rem;
+  font-size: 0.5rem;
 }
 
 .foodCount {
@@ -19,6 +18,20 @@ body {
 }
 
 .logo {
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 0.6rem;
+}
+
+.logo h1 {
+  color: #fff;
+}
+
+.log a {
+  text-decoration: none;
+}
+
+.Mealapp {
   height: 200px;
   background: url('../image/HomeChef-Logo.jpg') no-repeat center;
 }
@@ -28,7 +41,6 @@ body {
   background-size: contain;
   padding-bottom: 2rem;
   background-repeat: no-repeat;
-  box-shadow: 1px 5px 5px 1px rgb(51, 141, 51);
 }
 
 .header-middle h1 {
@@ -47,11 +59,17 @@ body {
   font-family: 'Allison', sans-serif;
 }
 
+.description {
+  text-align: center;
+  margin-left: 425px;
+}
+
 .list {
   display: flex;
-  font-family: 'Allison', sans-serif;
-  font-size: 2rem;
+  font-family: bold;
+  font-size: 1rem;
   margin-left: 500px;
+  color: white;
 }
 
 ul {
@@ -66,6 +84,11 @@ nav ul li {
   align-items: center;
 }
 
+.footer-reserved li a {
+  font-family: bold;
+  font-size: 1rem;
+}
+
 .pt-2 li a {
   font-size: 2.5rem;
   padding-right: 2rem;
@@ -75,11 +98,6 @@ nav ul li {
   text-decoration: none;
 }
 
-.footer-reserved li a {
-  font-family: bold;
-  font-size: 1rem;
-}
-
 .pt-2 li a:hover {
   color: #667eea;
   transition: all ease 0.3s;
@@ -87,7 +105,6 @@ nav ul li {
 
 main {
   padding: 0 2rem;
-  background-color: rgb(252, 238, 162);
 }
 
 img {
@@ -124,14 +141,14 @@ img {
 }
 
 .comments {
-  padding: 0.7rem;
+  padding: -0.3rem;
   background-color: #317224;
   color: #fff;
   font-size: 1rem;
   border-radius: 5px;
   width: 100%;
   cursor: pointer;
-  border: none;
+  border: #667eea 1px solid;
 }
 
 #comment {
@@ -188,7 +205,7 @@ footer {
 .modal {
   width: 85vw;
   min-height: 100vh;
-  border: #6d8347 2px solid;
+  border: #667eea 2px solid;
   padding: 1rem;
 }
 
@@ -308,10 +325,6 @@ textarea:focus {
   margin: 0.5rem;
 }
 
-.letter-spacing-01 {
-  letter-spacing: 0.1rem;
-}
-
 .d-flex {
   display: flex;
 }
@@ -359,5 +372,42 @@ textarea:focus {
 @media only screen and (max-width: 680px) {
   .meal-list li {
     width: 100%;
+  }
+
+  header {
+    margin-top: 2rem;
+    align-items: center;
+  }
+
+  .header-top {
+    margin-top: 2rem;
+    align-items: center;
+  }
+
+  .header-middle {
+    background-image: url(../image/Background.png);
+    background-size: cover;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .list {
+    margin-left: 20px;
+  }
+
+  footer {
+    background: #667eea;
+    height: 50px;
+  }
+
+  .footer-reserved li {
+    text-align: center;
+    margin-right: 200px;
+  }
+
+  .footer-reserved li a {
+    margin-right: 200px;
   }
 }

@@ -613,7 +613,7 @@
     "zwitch": "^1.0.5"
   },
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --env=jsdom",
     "watch": "jest --watch",
     "build": "webpack --mode=production",
     "start": "webpack serve --open --mode=development"
