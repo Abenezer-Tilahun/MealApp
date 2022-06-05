@@ -8,6 +8,8 @@ In this project, we built our own web application based on an external API. The 
 
 ![screenshot](./image/Home-chef.gif)
 
+![screenshot](./image/Screen-shoot.PNG)
+
 > This is a team project in the Microverse second Module. The project is a Meal-menu Web application that enables a user to Learn cooking of three different countries .
 
 The goal of the project is to build the application using Vanilla JavaScript and ES6 Modules.   
